@@ -1,6 +1,6 @@
 import gym
 
-env = gym.make("Hopper-v3", render_mode="human")
+env = gym.make("Taxi-v3", render_mode="human")
 env.action_space.seed(82)
 
 observation, info = env.reset(seed=82)
